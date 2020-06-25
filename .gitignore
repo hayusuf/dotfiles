@@ -1,0 +1,6 @@
+/*
+/.config/*
+!/.gitignore
+!/.config
+!/.fonts
+!/.i3
