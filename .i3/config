@@ -9,7 +9,7 @@ font pango:System San Francisco Display 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminator 
+bindsym $mod+Return exec urxvt 
 
 #firefox
 bindsym $mod+f exec firefox
@@ -186,3 +186,6 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 # compton
 #exec compton
+
+#disable app title bar
+new_window pixel 0
