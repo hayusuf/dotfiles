@@ -5,3 +5,5 @@
 !/.fonts
 !/.i3
 !.Xresources
+!.xinitrc
+!.bash_profile
