@@ -11,9 +11,11 @@ fi
 
 export EDITOR=vim
 export TERMCMD=st
-~/.fehbg &
-#exec dwm
+export RANGER_LOAD_DEFAULT_RC=false
+
+
+#exec dwm and fehbg
 while true; do   
-	 /usr/local/bin/dwm 2> /dev/null    
+	picom --config ~/.config/picom.conf & ~/.fehbg & /usr/local/bin/dwm 2> /dev/null    
 done
 
