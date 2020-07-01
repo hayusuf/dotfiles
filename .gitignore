@@ -2,8 +2,11 @@
 /.config/*
 !/.gitignore
 !/.config
+!/.config/picom.conf
 !/.fonts
 !/.i3
 !.Xresources
 !.xinitrc
 !.bash_profile
+!.bashrc
+!.vimrc
