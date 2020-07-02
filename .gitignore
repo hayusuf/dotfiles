@@ -1,6 +1,7 @@
 /*
 /.config/*
 !/.gitignore
+!/.gitconfig
 !/.config
 !/.config/picom.conf
 !/.fonts
@@ -10,3 +11,10 @@
 !.bash_profile
 !.bashrc
 !.vimrc
+#!.fehbg
+
+#dwm st scrot dmenu
+#!/dwm
+#!/st
+#!/dmenu
+#!/scrot
