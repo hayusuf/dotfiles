@@ -11,10 +11,5 @@
 !.bash_profile
 !.bashrc
 !.vimrc
-#!.fehbg
+!.fehbg
 
-#dwm st scrot dmenu
-#!/dwm
-#!/st
-#!/dmenu
-#!/scrot
