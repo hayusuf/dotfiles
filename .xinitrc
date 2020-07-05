@@ -31,7 +31,7 @@ cpu(){
 
 
 while true; do
-     xsetroot -name "$(cpu) | IP:192.168.1.116/24 | $(dte)"
+     xsetroot -name "$(cpu) | IP: | $(dte)"
      sleep 10s    # Update time every ten seconds
 done &
 
