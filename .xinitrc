@@ -31,13 +31,14 @@ cpu(){
 
 
 while true; do
-     xsetroot -name "$(cpu) | IP:192.168.1.116/24 | $(dte)"
+     xsetroot -name "$(cpu) | IP:192.168.1.116 | $(dte)"
      sleep 10s    # Update time every ten seconds
 done &
 
 
 #exec dwm and fehbg
 while true; do   
-	picom --config ~/.config/picom.conf & ~/.fehbg & /usr/local/bin/dwm 2> /dev/null    
+	#picom --config ~/.config/picom.conf & 
+	~/.fehbg & /usr/local/bin/dwm 2> /dev/null    
 done
 
