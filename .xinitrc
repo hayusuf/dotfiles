@@ -29,7 +29,12 @@ cpu(){
   echo -e "  $cpu%cpu"
 }
 
+#bat(){
+#  bat=$(cat /sys/class/power_supply/BAT0/capacity)
+#  echo -e "$bat%"
+#}
 
+#LAPTOP add after IP: $(bat) |
 while true; do
      xsetroot -name "$(cpu) | IP: 192.168.1.116 | $(dte)"
      sleep 10s    # Update time every ten seconds
