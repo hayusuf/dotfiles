@@ -34,7 +34,7 @@ cpu(){
 #  echo -e " $bat%"
 #}
 
-#LAPTOP add after IP: 192.168.1.136 | $(bat) |
+#LAPTOP add after IP: 192.168.1.133 | $(bat) |
 while true; do
      xsetroot -name "$(cpu) | IP: 192.168.1.131 | $(dte)"
      sleep 10s    # Update time every ten seconds
