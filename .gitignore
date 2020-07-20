@@ -1,11 +1,14 @@
 /*
 /.config/*
+/docs/*
 !/.gitignore
 !/.gitconfig
-!/.config
+!/.congig
 !/.config/picom.conf
 !/.fonts
 !/.i3
+!/docs
+!/docs/bg.jpg
 !.Xresources
 !.xinitrc
 !.bash_profile

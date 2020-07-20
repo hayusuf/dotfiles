@@ -1,3 +1,2 @@
 #!/bin/sh
-#feh --bg-center --no-fehbg --randomize ~/docs/bg/* 
-feh --bg-center --no-fehbg ~/docs/bg.jpg
+feh --no-fehbg --bg-center '/home/yusuf/docs/bg.jpg' 
