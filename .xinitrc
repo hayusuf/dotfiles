@@ -12,6 +12,8 @@ fi
 export EDITOR=vim
 export TERMCMD=st
 export RANGER_LOAD_DEFAULT_RC=false
+export netd=$(ip -4 -o addr show scope global | awk '/^[0-9]:/{print $2}' | cut -f1 -d '/')
+export IP=$(ip -4 -o addr show $netd | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | tail -n 1)
 
 
 dte(){
@@ -29,14 +31,14 @@ cpu(){
   echo -e "  $cpu%cpu"
 }
 
-#bat(){
-#  bat=$(cat /sys/class/power_supply/BAT0/capacity)
-#  echo -e " $bat%"
-#}
+bat(){
+  bat=$(cat /sys/class/power_supply/BAT0/capacity)
+  echo -e " $bat%"
+}
 
-#LAPTOP add after IP: 192.168.1.133 | $(bat) |
+#LAPTOP add  $(bat) |
 while true; do
-     xsetroot -name "$(cpu) | IP: 192.168.1.131 | $(dte)"
+     xsetroot -name "$(cpu) | IP: $IP | $(bat) | $(dte)"
      sleep 10s    # Update time every ten seconds
 done &
 
@@ -44,7 +46,8 @@ done &
 #exec dwm and fehbg
 while true; do   
 	#picom --config ~/.config/picom.conf & 
-	#xrandr --output eDP --brightness 0.7 & 
+	xrandr --output eDP --brightness 0.6 & 
 	~/.fehbg & /usr/local/bin/dwm 2> /dev/null    
+
 done
 
