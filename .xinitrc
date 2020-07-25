@@ -46,7 +46,7 @@ done &
 #exec dwm and fehbg
 while true; do   
 	#picom --config ~/.config/picom.conf & 
-	xrandr --output eDP --brightness 0.6 & 
+	xrandr --output eDP --brightness 0.6 &
 	~/.fehbg & /usr/local/bin/dwm 2> /dev/null    
 
 done
