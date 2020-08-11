@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-center '/home/yusuf/docs/bg.jpg' 
+feh --no-fehbg --bg-fill '/home/yusuf/docs/bg.jpg' 
