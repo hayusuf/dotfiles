@@ -15,6 +15,6 @@ export TERMCMD=alacritty
 export RANGER_LOAD_DEFAULT_RC=false
 
 while true; do   
-	~/.config/feh/.fehbg & ~/.config/polybar/launch.sh & /usr/local/bin/dwm 2> /dev/null
+	~/.fehbg & ~/.config/polybar/launch.sh & /usr/local/bin/dwm 2> /dev/null
 done
 
