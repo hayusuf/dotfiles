@@ -14,5 +14,6 @@
 !/.fehbg
 !/.config/alacritty/
 !/.config/neofetch/
+!/.config/nvim/
 !/.config/nvim/init.vim
 !/.config/polybar/
