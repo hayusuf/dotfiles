@@ -108,7 +108,7 @@ cursor:
   thickness: 0.15
 live_config_reload: true
 shell:
-  program: /bin/zsh
+  program: /bin/bash
   args:
     - --login
 working_directory: None
