@@ -13,6 +13,6 @@ export EDITOR=vim
 export VISUAL=vim
 export TERMCMD=alacritty
 while true; do   
-	~/.fehbg & dwmblocks & /usr/local/bin/dwm 2> /dev/null
+	~/.fehbg & /usr/local/bin/dwm 2> /dev/null
 done
 
