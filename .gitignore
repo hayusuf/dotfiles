@@ -3,10 +3,5 @@
 /docs/*
 !/.gitignore
 !/.gitconfig
-!/docs/README.md
-!/.xinitrc
-!/.bash_profile
-!/.fonts
 !/.config/
-!/.fehbg
 !/.config/alacritty/
