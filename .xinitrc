@@ -8,7 +8,7 @@ fi
 export EDITOR=vim
 export VISUAL=vim
 export TERMCMD=kitty
-while true; do
-	~/.fehbg & /usr/local/bin/dwm 2> /dev/null
-done
+feh --bg-center /home/yusuf/docs/bg.jpg
+exec dbus-launch leftwm
 
+#pacman base linux linux-firmware amd-ucode vim man-db ... relfector xorg-xinit efibootmgr networkmanager network-manager-applet dialog wpa_supplicant mtools dosfstools git cups hplip xdg-utils xdg-user-dirs alsa-utils pulseaudio inetutils base-devel linux-headers os-prober ... nvidia nvidia-utils xorg firefox kitty dmenu feh rtl88xxau-aircrack nautilus lxappearance ttf-firacode discord
