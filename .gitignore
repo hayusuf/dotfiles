@@ -3,6 +3,10 @@
 /docs/*
 !/.gitignore
 !/.gitconfig
+!/.xinitrc
+!/.bash_profile
+!/.fehbg
 !/.config/
 !/.config/kitty/
-!/.config/leftwm/
+!/.config/picom.conf
+!/.config/zoomus.conf
