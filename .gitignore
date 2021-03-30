@@ -1,6 +1,7 @@
 /*
 /.config/*
 /docs/*
+!/arch.sh
 !/.gitignore
 !/.gitconfig
 !/.xinitrc
