@@ -8,4 +8,6 @@ fi
 export EDITOR=vim
 export VISUAL=vim
 export TERMCMD=kitty
-exec xmonad
+plank &
+exec openbox-session
+
