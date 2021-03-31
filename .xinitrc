@@ -8,6 +8,7 @@ fi
 export EDITOR=vim
 export VISUAL=vim
 export TERMCMD=kitty
+export XDG_SESSION_TYPE=x11
 plank &
 exec openbox-session
 
