@@ -1,0 +1,174 @@
+    * {
+                        font-family: Roboto, Helvetica, Arial, sans-serif;
+                            font-size: 20px;
+                                min-height: 0;
+    }
+
+    window#waybar {
+            background-color: #f2e9e4;
+                color: #4A4E69;
+    }
+
+
+#tags * {
+    font-weight:500;
+    background: #f2e9e4;
+        color: #4A4E69;
+        transition:none;
+
+}
+
+#tags button.focused{
+    border: 1px solid #4a4e69;
+    border-radius:10%;
+}
+
+
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#custom-launcher,
+#custom-power,
+#custom-layout,
+#custom-updater,
+#custom-snip,
+#custom-wallpaper,
+#tags,
+#taskbar,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd {
+    padding: 0 10px;
+        color: #4A4E69;
+}
+
+#window,
+#workspaces {
+    margin: 0px 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+        margin-left: 0px;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+        margin-right: 0px;
+}
+
+#clock {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#battery {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#battery.charging, #battery.plugged {
+    color: #4A4E69;
+        background-color: #f2e9e4;
+}
+
+@keyframes blink {
+        to {
+                    background-color: #f2e9e4;
+                            color: #4A4E69;
+                                }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+            animation-name: blink;
+                animation-duration: 0.5s;
+                    animation-timing-function: linear;
+                        animation-iteration-count: infinite;
+                            animation-direction: alternate;
+}
+
+label:focus {
+        background-color: #f2e9e4;
+}
+
+#cpu {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#memory {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+
+#backlight {
+    background-color: #f2e9e4;
+}
+
+#network {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#network.disconnected {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#pulseaudio {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#pulseaudio.muted {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#tags{
+    background-color: #f2e9e4;
+        font-size: 20px;
+}
+
+#tags button.occupied {
+    color: #4A4E69;
+        margin: 5px;
+            background-color: #f2e9e4;
+}
+#tags button.focused {
+    color: #4A4E69;
+        margin: 5px;
+            background-color: #f2e9e4;
+}
+#tags button.urgent{
+    color: #4A4E69;
+        margin: 5px;
+            background-color:#f2e9e4;
+}
+
+
+#taskbar{
+    background-color: #f2e9e4;
+        border-radius: 0px 20px 20px 0px;
+}
+
+#temperature {
+    background-color: #f2e9e4;
+        color: #4A4E69;
+}
+
+#temperature.critical {
+    background-color: #f2e9e4;
+}
