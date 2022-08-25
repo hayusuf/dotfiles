@@ -10,6 +10,7 @@ mod="Mod1"
 
 riverctl map normal $mod+Shift Return spawn kitty
 riverctl map normal $mod+Shift B spawn  "waybar -c ~/.config/waybar/config-river -s ~/.config/waybar/river_style.css"
+#riverctl map normal $mod+Shift B spawn  "LANG=C waybar -c ~/.config/waybar/config-river -s ~/.config/waybar/river_style.css"
 riverctl map normal $mod F spawn firefox
 riverctl map normal $mod P spawn "wofi --show run -s .config/wofi/styles.css -c .config/wofi/config"
 riverctl map normal $mod+Shift R spawn "/home/yusuf/.config/river/init"
